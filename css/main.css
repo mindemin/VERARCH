@@ -1,0 +1,71 @@
+body{
+    background-image: -webkit-linear-gradient(45deg, pink, white, pink);
+}
+.vizitine {
+    background-image: url("/img/versloFonas1.png");
+    width: 487px;
+    height: 271px;
+    cursor: pointer;
+    margin: 20px;
+
+}
+
+.mygtukoTekstas {
+    position: relative;
+
+    top: 100px;
+    left: 200px;
+    font-size: 30px;
+    float: left;
+    color: #CF5619;
+}
+
+.mygtukai {
+    width: 1000px;
+    margin: 10px auto;
+    border-left: pink;
+    border-right: pink;
+    box-shadow: 0 5px 40px;
+    padding-top: 30px;
+    background-image: -webkit-linear-gradient(45deg, pink, grey, pink);
+
+
+}
+
+#v1 {
+    top: 20px;
+    border: pink;
+    box-shadow: 0 5px 40px;
+}
+
+#v2 {
+    position: relative;
+    top: -50px;
+    left: 265px;
+    border: pink;
+    box-shadow: 0 5px 40px;
+}
+
+#v3 {
+    position: relative;
+    top: -100px;
+    left: 475px;
+    border: pink;
+    box-shadow: 0 5px 40px;
+}
+footer {
+    margin-top: 10px;
+    background-color: #7D5150;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+header li a {
+    color: green;
+    text-decoration: none;
+    padding: 5px 3px 5px 3px;
+}
