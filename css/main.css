@@ -1,5 +1,5 @@
 body{
-    background-image: -webkit-linear-gradient(45deg, pink, white, pink);
+    background-color: #07010D;
 }
 .vizitine {
     background-image: url("/img/versloFonas1.png");
@@ -22,18 +22,21 @@ body{
 
 .mygtukai {
     width: 1000px;
+    height: 750px;
     margin: 10px auto;
     border-left: pink;
     border-right: pink;
     box-shadow: 0 5px 40px;
     padding-top: 30px;
+    background-color: pink;
     background-image: -webkit-linear-gradient(45deg, pink, grey, pink);
 
 
 }
 
 #v1 {
-    top: 20px;
+    margin-left: 20px;
+    margin-top: -15px;
     border: pink;
     box-shadow: 0 5px 40px;
 }

@@ -1,13 +1,15 @@
-body{
+body {
     background-color: #07010D;
     color: #8e6015;
     font-size: 25px;
 }
-a{
+
+a {
     color: black;
     text-underline: none;
     text-decoration: none;
 }
+
 header {
     font-size: 30px;
     background-color: #8e6015;
@@ -18,13 +20,15 @@ header {
     display: flex;
 
 }
-.puslapis{
-    height: 800px;
+
+.puslapis {
+
     text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
 
 }
+
 header ul {
     list-style: none;
     color: black;
@@ -42,12 +46,14 @@ header li {
     text-decoration: none;
 
 }
-h2{
+
+h2 {
     position: relative;
     top: 250px;
     left: 800px;
     font-size: 50px;
 }
+
 footer {
     margin-top: 10px;
     background-color: #8e6015;
@@ -56,25 +62,72 @@ footer {
     align-items: center;
     display: flex;
     color: #07010D;
-}
-.kontaktai{
-    position: relative;
-    left: 800px;
-    top: -200px;
+    overflow: auto;
 }
 
-.forma{
+.kontaktai {
+    position: relative;
+    left: 800px;
+    top: -150px;
+}
+
+.forma {
     position: relative;
 
     top: -100px;
 }
-h3{
+
+h3 {
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
 }
-.Aatsakymas{
-    color: white;
+
+.Aatsakymas {
+    color: #8e6015;
     font-size: 30px;
     font-weight: bold;
+}
+
+img {
+    position: static;
+    margin: -50px;
+
+}
+
+#tab1 {
+    display: none;
+}
+
+#tab2 {
+    display: none;
+}
+
+#tab3 {
+    display: none;
+}
+
+.tabai a {
+    color: #8e6015;
+
+}
+
+.tabai {
+    display: inline-table;
+}
+
+.tabai ul {
+    display: inline-table;
+}
+
+.tabai li {
+    display: inline-table;
+    padding: 20px;
+}
+
+#mygtukas1, #mygtukas2 {
+    font-weight: bold;
+}
+.kontaktai a{
+    color: #8e6015;
 }

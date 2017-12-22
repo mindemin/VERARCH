@@ -5,6 +5,7 @@
     <title>UAB "VERSLO ARCHITEKTŪRA"</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/page.css">
+    <script src="css/pastas.js"></script>
 </head>
 <body>
 <header>
@@ -19,23 +20,41 @@
     <h2>KUO MES UŽSIIMAME</h2>
     <img src="/img/versloLogo.png" alt="logo">
 
-    It is a long established fact that a reader will be distracted by the readable content of a page when
-    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-    of letters, as opposed to using 'Content here, content here', making it look like readable English. Many
-    desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-    search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
-    evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)It is
-    a long established fact that a reader will be distracted by the readable content of a page when
-    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-    of letters, as opposed to using 'Content here, content here', making it look like readable English. Many
-    desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-    search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
-    evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
+    <div class="tabai">
+        <ul>
+            <li><a href="#tab1" onclick="keistiTaba(this)">DARBAS 1</a></li>
+            <li><a href="#tab2" onclick="keistiTaba(this)">DARBAS 2</a></li>
+            <li><a href="#tab3" onclick="keistiTaba(this)">DARBAS 3</a></li>
+        <hr/>
+        </ul>
+    </div>
+
+    <div class="sheet" id="tab1">
+        PIRMAS DARBAS: The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+        of letters, as opposed to using 'Content here, content here', making it look like readable English. Many
+        desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
+        search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
+        evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </div>
+    <div class="sheet" id="tab2">
+        TANTRAS DARBAS: Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+        text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
+        evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)It is
+        a long established fact that a reader will be distracted by the readable content of a page when
+        looking at its layout.
+    </div>
+    <div class="sheet" id="tab3">
+        TRECIAS DARBAS: It is a long established fact that a reader will be distracted by the readable content of a page
+        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+        of letters, as opposed to using 'Content here, content here', making it look like readable English.
+    </div>
 </div>
 
 <footer>
     <span> &copy; Visos <b> teises </b> saugomos <i>2017.</i></span>
 </footer>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="css/pastas.js"></script>
 </html>

@@ -20,9 +20,8 @@ try {
 
     $result = $db->exec($sql_query);
     $insertId = $db->lastInsertId();
-    echo "Jusu zinute gauta.";
+    echo "Ačiū, Jūsų žinutė gauta. ";
     echo " ID: " . $insertId;
-
 
 
 } catch (\PDOException $e) {
