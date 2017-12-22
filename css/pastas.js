@@ -1,6 +1,4 @@
-
-
-$('.submit8tn').click(function () {
+$('.pateikti').click(function () {
 
     var duomenys = {};
     duomenys["vardas"] = $('[name="vardas"]').val();
@@ -8,8 +6,19 @@ $('.submit8tn').click(function () {
     duomenys["pastas"] = $('[name="pastas"]').val();
     duomenys["zinute"] = $('[name="zinute"]').val();
 
-    $.post("/Mindaugas/connect.php", duomenys, function ( data ){
+    $.post("/css/connect.php", duomenys, function (data) {
         $('.Aatsakymas').html(data);
+
     });
 
 });
+
+
+$('.isvalyti').click(function () {
+    document.getElementById("Ivardas").value = "";
+    document.getElementById("Ipavarde").value = "";
+    document.getElementById("Ipastas").value = "";
+    document.getElementById("Izinute").value = "";
+    $('.Aatsakymas').html("");
+
+})
