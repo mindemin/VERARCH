@@ -28,9 +28,4 @@ try {
     echo "Žinutės nepavyko išsiųsti, bandykite dar kartą." . $e->getMessage();
 };
 
-//function getData($db)
-//{
-//    $stmt = $db->query('SELECT * FROM zinutes');
-//    return $stmt->fetchAll{PDO::FETCH_ASSOC};
-//}
 
