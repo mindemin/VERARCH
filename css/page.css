@@ -57,3 +57,19 @@ footer {
     display: flex;
     color: #07010D;
 }
+.kontaktai{
+    position: relative;
+    left: 800px;
+    top: -200px;
+}
+
+.forma{
+    position: relative;
+
+    top: -100px;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
